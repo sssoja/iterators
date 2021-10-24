@@ -20,8 +20,6 @@ const newSum = newNumbers.reduce(function (accumulator, currentValue) {
   return accumulator + currentValue;
 });
 
-console.log(newSum);
-
 // Can also be written using arrow syntax
 const newSum = newNumbers.reduce(
   (accumulator, currentValue) => accumulator + currentValue
@@ -37,8 +35,6 @@ const newSum = newNumbers.reduce(function (accumulator, currentValue) {
   console.log("The value of currentValue: ", currentValue);
   return accumulator + currentValue;
 }, 10);
-
-console.log(newSum);
 
 // Can also be written using arrow syntax
 const newSum = newNumbers.reduce(

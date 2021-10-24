@@ -18,17 +18,13 @@ const animals = [
 ];
 
 const foundAnimal = animals.findIndex(animal => animal === "elephant");
-console.log(foundAnimal);
 
 // We can also define the callback function beforehand.
 const findElephant = animal => animal === "elephant";
 const foundAnimal = animals.findIndex(findElephant);
-console.log(foundAnimal);
 
 const startsWithS = animals.findIndex(animal => animal[0] === "s");
-console.log(startsWithS);
 
 // We can also define the callback function beforehand.
 const findS = animal => animal[0] === "s";
 const startsWithS = animals.findIndex(findS);
-console.log(startsWithS);
